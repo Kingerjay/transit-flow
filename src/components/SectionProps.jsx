@@ -14,8 +14,8 @@ function SectionProps({img, subText, heroHeader, heroText, heroButton, heroBtnIm
         {/* hero nav left */}
         <div className="hero-nav-left">
             <ul>
-                <li className='border-right'><a href="">Home</a></li>
-                <li className='border-right'><a href="">About</a></li>
+                <li className='border-right'><a href="/">Home</a></li>
+                <li className='border-right'><a href="/about">About</a></li>
                 <li className='border-right'><a href="">Pages<MdOutlineKeyboardArrowDown /></a></li>
                 <li className='border-right'><a href="">Project</a></li>
                 <li><a href="">Contact</a></li>
