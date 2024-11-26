@@ -1,5 +1,4 @@
 import React from 'react'
-import Homepage from '../home/homepage'
 import ServicesSection from '../home/ServicesSection'
 import SectionProps from '../SectionProps'
 import WhyUsSection from '../home/WhyUsSection'
