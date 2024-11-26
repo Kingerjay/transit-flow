@@ -29,7 +29,6 @@ function Home() {
         <TeamSection />
         <ContactSection />
         <BlogSection />
-        <Homepage />
     </div>
   )
 }
