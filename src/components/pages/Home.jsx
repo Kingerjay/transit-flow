@@ -8,12 +8,13 @@ import WhyChooseSection from '../home/WhyChooseSection'
 import TeamSection from '../home/TeamSection'
 import ContactSection from '../home/ContactSection'
 import BlogSection from '../home/BlogSection'
+import img from '/src/assets/background-img.png'
 
 function Home() {
   return (
     <div>
         <SectionProps 
-        img={"src/assets/background-img.png"} 
+        img={`${img}`} 
         subText = "Logistics & Supply Chain Solutions"
         heroHeader = "Your Gateway to any Destination in the World"
         heroText = "In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, enim diam interdum nulla, sed laoreet risus lectus. "

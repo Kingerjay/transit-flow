@@ -7,12 +7,13 @@ import TestimonialSection from '../about/TestimonialSection'
 import PricingSection from '../about/PricingSection'
 import FaqSection from '../about/FaqSection'
 import ClientLogoSection from '../about/ClientLogoSection'
+import img from '/src/assets/about-props-back.png'
 
 function About() {
   return (
     <div>
       <SectionProps 
-      img={"src/assets/about-props-back.png"} 
+      img={`${img}`} 
       subText = "About us"
         heroHeader = "About Our Logistics"
         
