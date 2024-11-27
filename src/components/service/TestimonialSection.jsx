@@ -8,7 +8,7 @@ import star from '/src/assets/star-icon.svg'
 
 function TestimonialSection() {
   return (
-    <div className='testimonial-section'>
+    <div>
         
         {/* <!-- Testimonial section --> */}
       <div className="test-section">

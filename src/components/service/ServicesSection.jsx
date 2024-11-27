@@ -8,7 +8,7 @@ import customerIcon from '/src/assets/customer-icon.svg'
 
 function ServicesSection() {
   return (
-    <div className='service-section'>
+    <div className='service-sec'>
 
         {/* Service COntainer */}
         <div className="service-con">

@@ -1362,12 +1362,18 @@ nav .nav-bar .right-nav {
   padding: 4rem 0;
 }
 
-.service-section .service-con {
+.service-sec {
+  width: 100%;
+  background-color: white;
+  padding: 4rem 0;
+}
+
+.service-con {
   width: 70%;
   margin: 0 auto;
 }
 
-.service-section .service-con .service-header {
+.service-con .service-header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1392,7 +1398,7 @@ nav .nav-bar .right-nav {
   padding: 1rem 0;
 }
 
-.service-section .service-con .service-grid {
+.service-con .service-grid {
   display: grid;
   grid-template-columns: repeat(3, auto);
   gap: 2rem;
@@ -1401,7 +1407,7 @@ nav .nav-bar .right-nav {
   padding: 2rem 0;
 }
 
-.service-section .service-con .service-grid1 {
+.service-con .service-grid1 {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -1772,4 +1778,104 @@ nav .nav-bar .right-nav {
   width: 280px;
   height: 234px;
   border: 1px solid rgba(78, 86, 131, 1);
+}
+
+/* END OF CLIENT LOGO SECTION */
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* SERVICE PAGE */
+
+/* GOODNESS SECTION */
+.good-section {
+  max-width: 1919px;
+  padding: 5rem 0;
+  background-color: rgba(244, 244, 244, 1);
+}
+
+.good-section .good-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.good-section .good-header .good-subtext {
+  background-color: rgba(232, 232, 232, 0.5);
+  font-family: "Rubik", sans-serif;
+  border-left: 4px solid rgba(255, 182, 41, 1);
+  color: rgba(28, 31, 53, 1);
+  width: fit-content;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 3px 9px;
+}
+
+.good-section .good-header .good-head {
+  font-family: "Rubik", sans-serif;
+  color: rgba(28, 31, 53, 1);
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.good-section .good-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 3rem 0;
+}
+
+.good-section .good-flex .good-flex1 {
+  position: relative;
+}
+
+.good-flex .good-flex1 .good-img2 {
+  background-color: rgba(244, 244, 244, 1);
+  position: absolute;
+  right: -4rem;
+  bottom: -4rem;
+  padding: 2rem;
+}
+
+.good-section .good-flex .good-flex2 {
+  max-width: 534px;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.good-section .good-flex .good-flex2 .good-content {
+  display: flex;
+  gap: 1rem;
+}
+
+.good-flex .good-flex2 img {
+  width: 45px;
+  height: 50px;
+}
+
+.good-flex .good-flex2 .good-content .good-text1 {
+  font-family: "Rubik", sans-serif;
+  color: rgba(28, 31, 53, 1);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.good-flex .good-flex2 .good-content .good-text2 {
+  color: rgba(102, 108, 137, 1);
+  font-size: 16px;
+  font-weight: 500;
+  max-width: 468px;
+  padding-top: 1rem;
 }
